@@ -4,4 +4,4 @@ kind: Deployment
 metadata:
   name: simple-deployment
 spec:
-  replicas: 4
+  replicas: 2 # originally the replicas are 4; mover to nr of staging
