@@ -21,4 +21,9 @@ spec:
   syncPolicy:
     syncOptions:
       - CreateNamespace=true  
-   
+  #added by me Tycho-1    
+  ignoreDifferences:
+  - group: apps
+    kind: Deployment
+    jsonPointers:
+    - /spec/replicas   
