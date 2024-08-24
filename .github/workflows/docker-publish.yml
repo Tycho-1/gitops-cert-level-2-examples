@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       docker_tag:
-        description: 'Docker tag'
+        description: 'Docker tag (please add a tag)'
         required: true
         default: 'latest' 
         type: string
